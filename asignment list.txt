@@ -1,0 +1,28 @@
+How to embend the php code in web pages
+Create and use the php const using the define and const keyword.
+Predefined constants part 1
+Predefined constants part 2 (magic constants)
+Arithematic operator
+Assignment operator
+Relation operator
+make a program to compare 3 number and find biggest number and also put condition in 2 same values
+8*8 chess
+Program to generate a table of given number 
+Program to test weather a number is palindrome or not
+program of lcm and hcf
+Program that weather a given year is leap or not
+factorial
+fibonachi
+program that shows working of functions in all return values and pass values ........
+swap the numbers using the recursion and print it after and before the the calling function
+library functions min 10
+factorial using the recursion and showing the stack and result displayment
+index and associative array and 2d array combined //not confirmed
+sorting functions of array  sort,rsort
+ksort,krsort,arsort,asort
+iterative functions of array next,prev,reset,embend
+bubblesort,insert,selection,merge,quick 
+any two sorting from above 
+string inbuilt functions like strrev,strlen,strpos
+revrese a string without inbuilt function
+position of a word in a string without inbuilt function
