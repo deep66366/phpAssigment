@@ -8,6 +8,5 @@ echo "<br>6. The Square root of 81 is : " . sqrt(81);
 echo "<br>7. The Value of 5 power 2 is : " . pow(5, 2);
 echo "<br>8. The Value of 11 Log 121 is  : " . log(11, 121);
 echo "<br>9. The Round of 7.9 : " . round(7.9);
-echo "<br>10. The Exponent is 1 is : " . exp(1);
-echo "<br>11. The value of pi is: " . pi();
+echo "<br>10. The value of pi is: " . pi();
 ?>
