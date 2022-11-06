@@ -5,9 +5,9 @@ function bubble_Sort($my_array)
         $swapped = false;
         for ($i = 0, $c = count($my_array) - 1; $i < $c; $i++) {
             if ($my_array[$i] > $my_array[$i + 1]) {
-                    $t = $my_array[$i];
-                    $my_array[$i] = $my_array[$i + 1];
-                    $my_array[$i + 1] = $t;
+                $t = $my_array[$i];
+                $my_array[$i] = $my_array[$i + 1];
+                $my_array[$i + 1] = $t;
                 $swapped = true;
             }
         }
@@ -15,13 +15,13 @@ function bubble_Sort($my_array)
     while ($swapped);
     return $my_array;
 }
-$test_array = array(3,0,2,5,-1,4,1);
+$test_array = array(3, 0, 2, 5, -1, 4, 1);
 echo "Original Array :<br>";
-foreach($test_array as $val){
+foreach ($test_array as $val) {
     echo "$val, ";
 }
 echo "<br>Sorted Array :<br>";
-foreach(bubble_Sort($test_array) as $val){
+foreach (bubble_Sort($test_array) as $val) {
     echo "$val, ";
 }
 ?>
