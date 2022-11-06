@@ -6,5 +6,5 @@ $year = 1904;
 // else {
 //     echo "$year is normal year.";
 // }
-echo (($year % 400 == 0) || ($year % 4 == 0 && $year % 100 != 0)) ? "$year is a leap year." : "$year is normal year.";
+echo "$year is a ".(($year % 400 == 0) || ($year % 4 == 0 && $year % 100 != 0)) ? "leap year." : "normal year.";
 ?>
