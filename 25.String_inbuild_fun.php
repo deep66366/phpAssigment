@@ -1,5 +1,5 @@
 <?php
-$str = "Hello I am Deepak Pal";
+$str = "Hello I am Harshita Sharma";
 echo "String is : $str";
 echo "<br>The length of a string : ".strlen($str);
 echo "<br>The number of words in a string : ".str_word_count($str);

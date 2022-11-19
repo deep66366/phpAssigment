@@ -15,8 +15,8 @@ function bubble_Sort($my_array)
     while ($swapped);
     return $my_array;
 }
-$test_array = array(3, 0, 2, 5, -1, 4, 1);
-echo "Original Array :<br>";
+$test_array = array(3, 2, 5, 0, -1, 4, 1);
+echo "Real Array :<br>";
 foreach ($test_array as $val) {
     echo "$val, ";
 }
