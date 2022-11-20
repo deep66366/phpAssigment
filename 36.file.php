@@ -1,15 +1,15 @@
 <?php
 
 // Create a new file
-$my_file = 'file.txt';
-$handle = fopen($my_file, 'w');
+$my_file = "file.txt";
+$handle = fopen($my_file, "w");
 if (!$handle) {
-    die('Cannot open file:  ' . $my_file);
+    die("Cannot open file:  " . $my_file);
 }
 echo "File open Successfully";
 
 //Write into a file
-$data = 'This is the data';
+$data = "This is the data";
 fwrite($handle, $data);
 
 // Read the contents of the file
