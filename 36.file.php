@@ -6,7 +6,7 @@ $handle = fopen($my_file, "w");
 if (!$handle) {
     die("Cannot open file:  " . $my_file);
 }
-echo "File open Successfully";
+echo "File open Successfully<br>";
 
 //Write into a file
 $data = "This is the data";
