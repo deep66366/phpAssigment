@@ -17,7 +17,7 @@ function reverse($str)
 }
 
 // Driver Code 
-$s = "Hello I am Harshita";
+$s = "Hello I am Deepak";
 $rev_s = reverse($s);
 
 echo "The string is : " . $s;

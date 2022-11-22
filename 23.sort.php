@@ -3,7 +3,8 @@ function bubble_Sort($my_array)
 {
     do {
         $swapped = false;
-        for ($i = 0, $c = count($my_array) - 1; $i < $c; $i++) {
+        $c = count($my_array) - 1;
+        for ($i = 0; $i < $c; $i++) {
             if ($my_array[$i] > $my_array[$i + 1]) {
                 $t = $my_array[$i];
                 $my_array[$i] = $my_array[$i + 1];

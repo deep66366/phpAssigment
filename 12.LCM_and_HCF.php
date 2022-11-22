@@ -1,8 +1,8 @@
 <?php
-$a = 43;
+$a = 46;
 $b = 28;
 $q = $a;
-$rem = $b % $a;
+$rem = $q % $b;
 while ($rem != 0) {
     $s = $rem;
     $rem = $q % $rem;

@@ -1,12 +1,12 @@
 <?php
 function position($str, $word)
 {
-    for ($i = 0; $i < strlen($str) - strlen($word) + 1; $i++) {
+    for ($i = 0; $i <= strlen($str) - strlen($word); $i++) {
         if ($str[$i] == $word[0]) {
-            $m = 0;
+            $m = true;
             for ($j = 1; $j < strlen($word); $j++) {
                 if ($str[$i + $j] != $word[$j]) {
-                    $m++;
+                    $m = false;
                     break;
                 }
             }
